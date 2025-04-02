@@ -3,8 +3,9 @@ import {RouteProp} from '@react-navigation/native';
 export type MainStackParamList = {
   GetPlaces: undefined;
   ShowPlace: {
-    latitude: number;
-    longitude: number;
+    address: string;
+    latitude: number | undefined;
+    longitude: number | undefined;
   };
 };
 

@@ -16,7 +16,11 @@ const MainNavigation = () => {
           name="GetPlaces"
           component={GetPlacesScreen}
         />
-        <MainStack.Screen name="ShowPlace" component={ShowPlaceScreen} />
+        <MainStack.Screen
+          name="ShowPlace"
+          component={ShowPlaceScreen}
+          options={{headerTitle: 'Your Address'}}
+        />
       </MainStack.Navigator>
     </NavigationContainer>
   );
