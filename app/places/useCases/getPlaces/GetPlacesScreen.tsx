@@ -14,7 +14,7 @@ const GetPlacesScreen = () => {
         placeholder="Search"
         onPress={onPressPlace}
         query={{
-          key: 'AIzaSyAGi0RbPqTRU-XDdOMXnVPdLnDy8YgjM0Y',
+          key: 'API_KEY',
           language: 'en',
         }}
         styles={{container: {flex: 1}}}
